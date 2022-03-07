@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body class="publicar">
-	<header>
+	<header role="banner">
 		<div>
 			<a href="index.html"><img src="img/logo.png" alt="logotipo UOC"></a>
 		</div>
@@ -27,8 +27,8 @@
 			<form>
 				<h2>Datos de la publicación</h2>
 
-				<label>Comunidad donde debe publicarse *</label>
-				<select>
+				<label for="select">Comunidad donde debe publicarse *</label>
+				<select id="select">
 					<option value="docencia">Docencia</option>
 					<option value="institucional">Institucional</option>
 					<option value="investigacion">Investigación</option>

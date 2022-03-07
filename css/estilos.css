@@ -19,6 +19,12 @@ Paleta de colores:
  #F0F0F0 GRIS CLARO;
 */
 
+
+p {
+	line-height: 1.5;
+}
+
+
 /* Eliminar el padding y margin que el navegador introduce por defecto, y aplicar la funete de letra principal*/
 body{
 	margin: 0;
@@ -121,7 +127,7 @@ nav ul li a:hover, .actual{border-bottom: solid 3px #FFE000;}
 
 /* Destacado **********************************************/
 
-.index h2{
+.index h1{
 	margin: 0;
 	font-size: 2rem;
 	font-weight: lighter;
@@ -160,7 +166,7 @@ a través de motores de busquedas. */
 
 /* Cambiamos el Subitutlo indicado, ya que el tamaño 
 es mayor al de los subtitulos creados para todo el inicio*/
-.inicioDestacado h2{
+.inicioDestacado h1{
 	font-size: 3rem;
 	margin: 0;
 	padding-right: 60px;

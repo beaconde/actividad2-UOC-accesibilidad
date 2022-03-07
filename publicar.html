@@ -27,7 +27,7 @@
 			<form>
 				<h2>Datos de la publicación</h2>
 
-				<label aria-labelledby="select">Comunidad donde debe publicarse *</label>
+				<label for="select">Comunidad donde debe publicarse *</label>
 				<select id="select" title="Select">
 					<option value="docencia">Docencia</option>
 					<option value="institucional">Institucional</option>
@@ -35,19 +35,19 @@
 					<option value="datos">Datos</option>
 				</select>
 
-				<label aria-labelledby="nombre-del-autor">Nombre del autor *</label>
+				<label for="nombre-del-autor">Nombre del autor *</label>
 				<input type="text" name="nombre-del-autor" id="nombre-del-autor" placeholder="Escribe el nombre del autor" required pattern="[A-Za-z]+" minlength="2" maxlength="64">
 
-				<label aria-labelledby="primer-apellido-autor">Primer apellido del autor *</label>
+				<label for="primer-apellido-autor">Primer apellido del autor *</label>
 				<input type="text" name="primer-apellido-autor" id="primer-apellido-autor" placeholder="Escribe el primer apellido del autor" required pattern="[A-Za-z]+" minlength="2" maxlength="64">
 
-				<label aria-labelledby="segundo-apellido-autor">Segundo apellido del autor *</label>
+				<label for="segundo-apellido-autor">Segundo apellido del autor *</label>
 				<input type="text" name="segundo-apellido-autor" id="segundo-apellido-autor" placeholder="Escribe el segundo apellido del autor" required pattern="[A-Za-z]+" minlength="2" maxlength="64">
 
-				<label aria-labelledby="titulo-documento">Título del documento *</label>
+				<label for="titulo-documento">Título del documento *</label>
 				<input type="text" name="titulo-documento" id="titulo-documento" placeholder="Escribe el título del documento" pattern="[A-Za-z]+" minlength="2" maxlength="64">
 
-				<label aria-labelledby="fecha-creacion-documento">Fecha de creación del documento *</label>
+				<label for="fecha-creacion-documento">Fecha de creación del documento *</label>
 				<input type="date" name="fecha-creacion-documento" id="fecha-creacion-documento" required>
 
 
@@ -57,7 +57,7 @@
 					<label for="editorial">Universidad Oberta de Cataluña</label>
 				</div>
 
-				<label aria-labelledby="tipo-documento">Tipo de documento *</label>
+				<label for="tipo-documento">Tipo de documento *</label>
 				<select id="tipo-documento">
 					<option value="">Selecciona un tipo</option>
 					<option value="articulo">Artículo</option>
@@ -75,7 +75,7 @@
 					<option value="documental">Documental</option>
 				</select>
 
-				<label aria-labelledby="idioma-documento">Idioma del documento *</label>
+				<label for="idioma-documento">Idioma del documento *</label>
 				<select id="idioma-documento">
 					<option value="">Selecciona un tipo</option>
 					<option value="castellano">Castellano</option>
@@ -89,13 +89,13 @@
 					<option value="otro">otro</option>
 				</select>
 
-				<label aria-labelledby="resumen">Breve resumen del documento *</label>
+				<label for="resumen">Breve resumen del documento *</label>
 				<textarea name="resumen" id="resumen" cols="25" rows="3"></textarea>
 
-				<label aria-labelledby="enviar-documento">Enviar documento *</label>
+				<label for="enviar-documento">Enviar documento *</label>
 				<input type="file" name="enviar-documento" id="enviar-documento">
 
-				<label aria-labelledby="licencia">Acepta la licencia de publicación del documento *</label>
+				<label for="licencia">Acepta la licencia de publicación del documento *</label>
 				<select id="licencia">
 					<option value="">Selecciona un tipo</option>
 					<option value="Reconocimiento-NoComercial-SinObraDerivada">Reconocimiento NoComercial-SinObraDerivada 3.0</option>
@@ -106,7 +106,7 @@
 				</select>
 
 				<h2>Datos de contacto del remitente</h2>
-				<label aria-labelledby="nombre-completo">Nombre y apellidos *</label>
+				<label for="nombre-completo">Nombre y apellidos *</label>
 				<input type="text" name="nombre-completo" id="nombre-completo" placeholder="Escribe el nombre completo">
 
 				<div class="radio">
@@ -136,39 +136,39 @@
 					</div>
 				</div>
 
-				<label aria-labelledby="numero-documento">Número de documento *</label>
+				<label for="numero-documento">Número de documento *</label>
 				<input type="text" name="numero-documento" id="numero-documento" placeholder="Escribe el número de documento elegido" required pattern="[A-Za-z]+" minlength="2" maxlength="128">
 
-				<label aria-labelledby="email">Correo electrónico *</label>
+				<label for="email">Correo electrónico *</label>
 				<input type="email" name="email" id="email" placeholder="Escribe el correo electrónico" required>
 
-				<label aria-labelledby="telefono">Teléfono (opcional)</label>
+				<label for="telefono">Teléfono (opcional)</label>
 				<input type="tel" name="telefono" id="telefono" placeholder="Escribe el teléfono" pattern="[0-9]+" minlength="9" maxlength="10">
 
 				<div class="radio">
 					<p>Idioma para la respuesta *</p>
 					<div>
 						<input type="radio" name="idioma-respuesta" id="castellano" value="castellano" >
-						<label aria-labelledby="castellano">Castellano</label>
+						<label for="castellano">Castellano</label>
 					</div>
 					<div>
 						<input type="radio" name="idioma-respuesta" id="catalan" value="calatan" >
-						<label aria-labelledby="catalan">Catalán</label>
+						<label for="catalan">Catalán</label>
 					</div>
 				</div>
 				<hr>
 
 				<div>
 					<input type="checkbox" name="politica-de-privacidad" id="politica-de-privacidad" required>
-					<label aria-labelledby="politica-de-privacidad">He leído y acepto la política de privacidad y el aviso legal *</label>
+					<label for="politica-de-privacidad">He leído y acepto la política de privacidad y el aviso legal *</label>
 				</div>
 
 				<div>
 					<input type="checkbox" name="ser-informado" id="ser-informado">
-					<label aria-labelledby="ser-informado">Dese ser informado sobre las nuevas incorporaciones al repositorio</label>
+					<label for="ser-informado">Dese ser informado sobre las nuevas incorporaciones al repositorio</label>
 				</div>
 
-				<input type="submit" name="enviar" class="boton" role="button">
+				<input type="submit" name="enviar" class="boton">
 			</form>
 
 		</section>
